@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Halka — Travel Timeline</title>
+    <meta name="description" content="Interactive travel timeline of a digital nomad. 35+ countries, 99+ cruise days, and counting.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Around the World</h1>
+            <p class="hero-subtitle">35+ countries · 99+ cruise days · infinite stories</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="country-count">0</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" id="trip-count">0</span>
+                    <span class="stat-label">Trips</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" id="cruise-days">0</span>
+                    <span class="stat-label">Cruise Days</span>
+                </div>
+            </div>
+            <a href="#map" class="scroll-cta">
+                <span>Explore</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12l7 7 7-7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Interactive Map -->
+    <section id="map" class="map-section">
+        <div class="section-header">
+            <h2>The Map</h2>
+            <p>Every pin is a memory</p>
+        </div>
+        <div id="world-map"></div>
+    </section>
+
+    <!-- View Toggle -->
+    <section class="controls">
+        <div class="view-toggle">
+            <button class="toggle-btn active" data-view="timeline">Timeline</button>
+            <button class="toggle-btn" data-view="grid">Grid</button>
+        </div>
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="cruise">Cruises</button>
+            <button class="filter-btn" data-filter="city">Cities</button>
+            <button class="filter-btn" data-filter="adventure">Adventure</button>
+            <button class="filter-btn" data-filter="extended-stay">Extended Stay</button>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="timeline-section">
+        <div class="timeline-container" id="timeline-container">
+            <!-- Dynamically populated -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Digital Nomad since 2020 · Built with wanderlust</p>
+        <p class="footer-sub">Last updated: <span id="last-updated"></span></p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
