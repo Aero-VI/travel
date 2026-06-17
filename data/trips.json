@@ -8,9 +8,16 @@
     "startDate": "2026-03-20",
     "endDate": "2026-04-30",
     "type": "extended-stay",
-    "coordinates": [40.0553, 140.0526],
+    "coordinates": [
+      40.0553,
+      140.0526
+    ],
     "description": "Catching cherry blossom season in northern Japan. Based in Noshiro, Akita prefecture.",
-    "highlights": ["Cherry blossoms", "Rural Japan", "Akita Prefecture"],
+    "highlights": [
+      "Cherry blossoms",
+      "Rural Japan",
+      "Akita Prefecture"
+    ],
     "photos": []
   },
   {
@@ -22,9 +29,17 @@
     "startDate": "2026-03-01",
     "endDate": "2026-03-19",
     "type": "city",
-    "coordinates": [35.6762, 139.6503],
+    "coordinates": [
+      35.6762,
+      139.6503
+    ],
     "description": "F1 experience at Tokyo Tower, Honda exhibition, exploring the megacity.",
-    "highlights": ["F1 at Tokyo Tower", "Honda Exhibition", "Shibuya", "Akihabara"],
+    "highlights": [
+      "F1 at Tokyo Tower",
+      "Honda Exhibition",
+      "Shibuya",
+      "Akihabara"
+    ],
     "photos": []
   },
   {
@@ -36,22 +51,212 @@
     "startDate": "2026-06-08",
     "endDate": "2026-06-20",
     "type": "cruise",
-    "coordinates": [55.6761, 12.5683],
-    "description": "12-night Sapphire Princess cruise through Scandinavia and the Baltics.",
-    "highlights": ["Oslo", "Stockholm", "Helsinki", "Tallinn", "Riga", "Gdansk"],
-    "route": [
-      {"port": "Copenhagen, Denmark", "date": "2026-06-08", "coordinates": [55.6761, 12.5683]},
-      {"port": "Oslo, Norway", "date": "2026-06-09", "coordinates": [59.9139, 10.7522]},
-      {"port": "Skagen, Denmark", "date": "2026-06-10", "coordinates": [57.7200, 10.5833]},
-      {"port": "Bornholm, Denmark", "date": "2026-06-11", "coordinates": [55.1246, 14.9168]},
-      {"port": "Visby, Sweden", "date": "2026-06-12", "coordinates": [57.6348, 18.2948]},
-      {"port": "Stockholm, Sweden", "date": "2026-06-13", "coordinates": [59.3293, 18.0686]},
-      {"port": "Helsinki, Finland", "date": "2026-06-14", "coordinates": [60.1699, 24.9384]},
-      {"port": "Tallinn, Estonia", "date": "2026-06-15", "coordinates": [59.4370, 24.7536]},
-      {"port": "Riga, Latvia", "date": "2026-06-16", "coordinates": [56.9496, 24.1052]},
-      {"port": "Gdynia, Poland", "date": "2026-06-18", "coordinates": [54.5189, 18.5305]},
-      {"port": "Copenhagen, Denmark", "date": "2026-06-20", "coordinates": [55.6761, 12.5683]}
+    "coordinates": [
+      55.6761,
+      12.5683
     ],
+    "description": "12-night Sapphire Princess cruise through Scandinavia and the Baltics.",
+    "highlights": [
+      "Oslo",
+      "Stockholm",
+      "Helsinki",
+      "Tallinn",
+      "Riga",
+      "Gdansk"
+    ],
+    "route": [
+      {
+        "port": "Copenhagen, Denmark",
+        "date": "2026-06-08",
+        "coordinates": [
+          55.6761,
+          12.5683
+        ]
+      },
+      {
+        "port": "Oslo, Norway",
+        "date": "2026-06-09",
+        "coordinates": [
+          59.9139,
+          10.7522
+        ]
+      },
+      {
+        "port": "Skagen, Denmark",
+        "date": "2026-06-10",
+        "coordinates": [
+          57.72,
+          10.5833
+        ]
+      },
+      {
+        "port": "Bornholm, Denmark",
+        "date": "2026-06-11",
+        "coordinates": [
+          55.1246,
+          14.9168
+        ]
+      },
+      {
+        "port": "Visby, Sweden",
+        "date": "2026-06-12",
+        "coordinates": [
+          57.6348,
+          18.2948
+        ]
+      },
+      {
+        "port": "Stockholm, Sweden",
+        "date": "2026-06-13",
+        "coordinates": [
+          59.3293,
+          18.0686
+        ]
+      },
+      {
+        "port": "Helsinki, Finland",
+        "date": "2026-06-14",
+        "coordinates": [
+          60.1699,
+          24.9384
+        ]
+      },
+      {
+        "port": "Tallinn, Estonia",
+        "date": "2026-06-15",
+        "coordinates": [
+          59.437,
+          24.7536
+        ]
+      },
+      {
+        "port": "Riga, Latvia",
+        "date": "2026-06-16",
+        "coordinates": [
+          56.9496,
+          24.1052
+        ]
+      },
+      {
+        "port": "Gdynia, Poland",
+        "date": "2026-06-18",
+        "coordinates": [
+          54.5189,
+          18.5305
+        ]
+      },
+      {
+        "port": "Copenhagen, Denmark",
+        "date": "2026-06-20",
+        "coordinates": [
+          55.6761,
+          12.5683
+        ]
+      }
+    ],
+    "photos": []
+  },
+  {
+    "id": "liberty-hamburg-bruges-2026",
+    "title": "Royal Caribbean Liberty of the Seas: Hamburg & Bruges",
+    "location": "Southampton Roundtrip",
+    "country": "Multiple",
+    "region": "Europe",
+    "startDate": "2026-06-20",
+    "endDate": "2026-06-26",
+    "type": "cruise",
+    "coordinates": [
+      50.9097,
+      -1.4044
+    ],
+    "description": "First Royal Caribbean cruise! CPH to London flight, then 5-night Hamburg & Bruges cruise from Southampton. Free balcony upgrade via CR Targeted Offer.",
+    "highlights": [
+      "First Royal Caribbean",
+      "Hamburg, Germany",
+      "Bruges, Belgium",
+      "Spacious Balcony Cabin",
+      "Virgin Atlantic CPH-LHR"
+    ],
+    "flight": {
+      "carrier": "Virgin Atlantic / SAS",
+      "flightNumber": "SK503",
+      "bookingRef": "D7U5A9",
+      "origin": "Copenhagen (CPH)",
+      "destination": "London Heathrow (LHR)",
+      "date": "2026-06-20",
+      "departTime": "12:35",
+      "arriveTime": "13:35",
+      "coordinates": {
+        "origin": [
+          55.6181,
+          12.6561
+        ],
+        "destination": [
+          51.47,
+          -0.4543
+        ]
+      }
+    },
+    "route": [
+      {
+        "port": "Copenhagen, Denmark (Flight)",
+        "date": "2026-06-20",
+        "coordinates": [
+          55.6761,
+          12.5683
+        ]
+      },
+      {
+        "port": "London Heathrow (Flight)",
+        "date": "2026-06-20",
+        "coordinates": [
+          51.47,
+          -0.4543
+        ]
+      },
+      {
+        "port": "Southampton, England",
+        "date": "2026-06-21",
+        "coordinates": [
+          50.9097,
+          -1.4044
+        ]
+      },
+      {
+        "port": "Hamburg, Germany",
+        "date": "2026-06-23",
+        "coordinates": [
+          53.5511,
+          9.9937
+        ]
+      },
+      {
+        "port": "Bruges/Zeebrugge, Belgium",
+        "date": "2026-06-25",
+        "coordinates": [
+          51.3285,
+          3.1747
+        ]
+      },
+      {
+        "port": "Southampton, England",
+        "date": "2026-06-26",
+        "coordinates": [
+          50.9097,
+          -1.4044
+        ]
+      }
+    ],
+    "cruiseDetails": {
+      "line": "Royal Caribbean",
+      "ship": "Liberty of the Seas",
+      "bookingRef": "8553297",
+      "crownAnchor": "397185902",
+      "stateroom": "8248",
+      "deck": 8,
+      "roomType": "Spacious Ocean View Balcony (2B)",
+      "dining": "My Time Dining"
+    },
     "photos": []
   },
   {
@@ -63,9 +268,17 @@
     "startDate": "2025-01-15",
     "endDate": "2025-03-10",
     "type": "backpacking",
-    "coordinates": [13.7563, 100.5018],
+    "coordinates": [
+      13.7563,
+      100.5018
+    ],
     "description": "Multi-country backpacking through Southeast Asia. Bangkok, Chiang Mai, Hanoi, Siem Reap.",
-    "highlights": ["Bangkok temples", "Chiang Mai night markets", "Ha Long Bay", "Angkor Wat"],
+    "highlights": [
+      "Bangkok temples",
+      "Chiang Mai night markets",
+      "Ha Long Bay",
+      "Angkor Wat"
+    ],
     "photos": []
   },
   {
@@ -77,17 +290,75 @@
     "startDate": "2025-05-01",
     "endDate": "2025-05-14",
     "type": "cruise",
-    "coordinates": [41.3874, 2.1686],
+    "coordinates": [
+      41.3874,
+      2.1686
+    ],
     "description": "14-day Western Mediterranean cruise. Part of 99+ cruise days in 2025.",
-    "highlights": ["Barcelona", "Rome", "Naples", "Santorini", "Dubrovnik"],
+    "highlights": [
+      "Barcelona",
+      "Rome",
+      "Naples",
+      "Santorini",
+      "Dubrovnik"
+    ],
     "route": [
-      {"port": "Barcelona, Spain", "date": "2025-05-01", "coordinates": [41.3874, 2.1686]},
-      {"port": "Marseille, France", "date": "2025-05-02", "coordinates": [43.2965, 5.3698]},
-      {"port": "Rome, Italy", "date": "2025-05-04", "coordinates": [41.9028, 12.4964]},
-      {"port": "Naples, Italy", "date": "2025-05-05", "coordinates": [40.8518, 14.2681]},
-      {"port": "Santorini, Greece", "date": "2025-05-07", "coordinates": [36.3932, 25.4615]},
-      {"port": "Dubrovnik, Croatia", "date": "2025-05-09", "coordinates": [42.6507, 18.0944]},
-      {"port": "Venice, Italy", "date": "2025-05-11", "coordinates": [45.4408, 12.3155]}
+      {
+        "port": "Barcelona, Spain",
+        "date": "2025-05-01",
+        "coordinates": [
+          41.3874,
+          2.1686
+        ]
+      },
+      {
+        "port": "Marseille, France",
+        "date": "2025-05-02",
+        "coordinates": [
+          43.2965,
+          5.3698
+        ]
+      },
+      {
+        "port": "Rome, Italy",
+        "date": "2025-05-04",
+        "coordinates": [
+          41.9028,
+          12.4964
+        ]
+      },
+      {
+        "port": "Naples, Italy",
+        "date": "2025-05-05",
+        "coordinates": [
+          40.8518,
+          14.2681
+        ]
+      },
+      {
+        "port": "Santorini, Greece",
+        "date": "2025-05-07",
+        "coordinates": [
+          36.3932,
+          25.4615
+        ]
+      },
+      {
+        "port": "Dubrovnik, Croatia",
+        "date": "2025-05-09",
+        "coordinates": [
+          42.6507,
+          18.0944
+        ]
+      },
+      {
+        "port": "Venice, Italy",
+        "date": "2025-05-11",
+        "coordinates": [
+          45.4408,
+          12.3155
+        ]
+      }
     ],
     "photos": []
   },
@@ -100,15 +371,58 @@
     "startDate": "2025-07-10",
     "endDate": "2025-07-20",
     "type": "cruise",
-    "coordinates": [18.2208, -66.5901],
+    "coordinates": [
+      18.2208,
+      -66.5901
+    ],
     "description": "Eastern Caribbean island hopping. Crystal clear waters and island vibes.",
-    "highlights": ["St. Thomas", "San Juan", "Grand Turk", "Cozumel"],
+    "highlights": [
+      "St. Thomas",
+      "San Juan",
+      "Grand Turk",
+      "Cozumel"
+    ],
     "route": [
-      {"port": "Miami, USA", "date": "2025-07-10", "coordinates": [25.7617, -80.1918]},
-      {"port": "Grand Turk", "date": "2025-07-12", "coordinates": [21.4674, -71.1389]},
-      {"port": "San Juan, Puerto Rico", "date": "2025-07-13", "coordinates": [18.4655, -66.1057]},
-      {"port": "St. Thomas, USVI", "date": "2025-07-14", "coordinates": [18.3358, -64.9307]},
-      {"port": "Cozumel, Mexico", "date": "2025-07-17", "coordinates": [20.4230, -86.9223]}
+      {
+        "port": "Miami, USA",
+        "date": "2025-07-10",
+        "coordinates": [
+          25.7617,
+          -80.1918
+        ]
+      },
+      {
+        "port": "Grand Turk",
+        "date": "2025-07-12",
+        "coordinates": [
+          21.4674,
+          -71.1389
+        ]
+      },
+      {
+        "port": "San Juan, Puerto Rico",
+        "date": "2025-07-13",
+        "coordinates": [
+          18.4655,
+          -66.1057
+        ]
+      },
+      {
+        "port": "St. Thomas, USVI",
+        "date": "2025-07-14",
+        "coordinates": [
+          18.3358,
+          -64.9307
+        ]
+      },
+      {
+        "port": "Cozumel, Mexico",
+        "date": "2025-07-17",
+        "coordinates": [
+          20.423,
+          -86.9223
+        ]
+      }
     ],
     "photos": []
   },
@@ -121,9 +435,17 @@
     "startDate": "2024-08-01",
     "endDate": "2024-08-12",
     "type": "road-trip",
-    "coordinates": [64.9631, -19.0208],
+    "coordinates": [
+      64.9631,
+      -19.0208
+    ],
     "description": "Driving the Ring Road around Iceland. Waterfalls, glaciers, volcanic landscapes.",
-    "highlights": ["Golden Circle", "Jokulsarlon Glacier Lagoon", "Northern Lights", "Blue Lagoon"],
+    "highlights": [
+      "Golden Circle",
+      "Jokulsarlon Glacier Lagoon",
+      "Northern Lights",
+      "Blue Lagoon"
+    ],
     "photos": []
   },
   {
@@ -135,9 +457,17 @@
     "startDate": "2024-04-15",
     "endDate": "2024-05-01",
     "type": "extended-stay",
-    "coordinates": [38.7223, -9.1393],
+    "coordinates": [
+      38.7223,
+      -9.1393
+    ],
     "description": "Two weeks between Lisbon and Porto. Pasteis de nata, port wine, and stunning coastlines.",
-    "highlights": ["Belem Tower", "Port wine tasting", "Sintra", "Algarve coast"],
+    "highlights": [
+      "Belem Tower",
+      "Port wine tasting",
+      "Sintra",
+      "Algarve coast"
+    ],
     "photos": []
   },
   {
@@ -149,9 +479,17 @@
     "startDate": "2024-10-05",
     "endDate": "2024-10-25",
     "type": "city",
-    "coordinates": [35.0116, 135.7681],
+    "coordinates": [
+      35.0116,
+      135.7681
+    ],
     "description": "First deep dive into Japan. Three weeks across the major cities.",
-    "highlights": ["Fushimi Inari", "Shibuya Crossing", "Dotonbori", "Mt. Fuji"],
+    "highlights": [
+      "Fushimi Inari",
+      "Shibuya Crossing",
+      "Dotonbori",
+      "Mt. Fuji"
+    ],
     "photos": []
   },
   {
@@ -163,9 +501,17 @@
     "startDate": "2024-02-01",
     "endDate": "2024-02-20",
     "type": "city",
-    "coordinates": [6.2476, -75.5658],
+    "coordinates": [
+      6.2476,
+      -75.5658
+    ],
     "description": "Digital nomad hub in Medellin, then coastal vibes in Cartagena.",
-    "highlights": ["Comuna 13", "El Penol", "Old Town Cartagena", "Coffee region"],
+    "highlights": [
+      "Comuna 13",
+      "El Penol",
+      "Old Town Cartagena",
+      "Coffee region"
+    ],
     "photos": []
   },
   {
@@ -177,9 +523,17 @@
     "startDate": "2023-11-10",
     "endDate": "2023-11-25",
     "type": "adventure",
-    "coordinates": [31.6295, -7.9811],
+    "coordinates": [
+      31.6295,
+      -7.9811
+    ],
     "description": "From the medinas of Marrakech to camping in the Sahara Desert.",
-    "highlights": ["Jemaa el-Fnaa", "Sahara camel trek", "Atlas Mountains", "Fes medina"],
+    "highlights": [
+      "Jemaa el-Fnaa",
+      "Sahara camel trek",
+      "Atlas Mountains",
+      "Fes medina"
+    ],
     "photos": []
   },
   {
@@ -191,9 +545,17 @@
     "startDate": "2023-06-15",
     "endDate": "2023-07-05",
     "type": "island-hopping",
-    "coordinates": [37.4467, 25.3289],
+    "coordinates": [
+      37.4467,
+      25.3289
+    ],
     "description": "Island hopping through the Cyclades. White buildings, blue domes, endless sunsets.",
-    "highlights": ["Santorini sunset", "Mykonos nightlife", "Acropolis", "Naxos beaches"],
+    "highlights": [
+      "Santorini sunset",
+      "Mykonos nightlife",
+      "Acropolis",
+      "Naxos beaches"
+    ],
     "photos": []
   },
   {
@@ -205,9 +567,17 @@
     "startDate": "2023-03-01",
     "endDate": "2023-03-28",
     "type": "extended-stay",
-    "coordinates": [-8.3405, 115.0920],
+    "coordinates": [
+      -8.3405,
+      115.092
+    ],
     "description": "Month in Bali. Ubud rice terraces, Seminyak sunsets, Nusa Penida cliffs.",
-    "highlights": ["Tegallalang Rice Terraces", "Uluwatu Temple", "Nusa Penida", "Ubud"],
+    "highlights": [
+      "Tegallalang Rice Terraces",
+      "Uluwatu Temple",
+      "Nusa Penida",
+      "Ubud"
+    ],
     "photos": []
   },
   {
@@ -219,9 +589,17 @@
     "startDate": "2023-01-05",
     "endDate": "2023-01-25",
     "type": "city",
-    "coordinates": [19.4326, -99.1332],
+    "coordinates": [
+      19.4326,
+      -99.1332
+    ],
     "description": "CDMX street food, Aztec ruins, then beach vibes in Tulum.",
-    "highlights": ["Teotihuacan", "Chapultepec Castle", "Tulum ruins", "Cenotes"],
+    "highlights": [
+      "Teotihuacan",
+      "Chapultepec Castle",
+      "Tulum ruins",
+      "Cenotes"
+    ],
     "photos": []
   },
   {
@@ -233,9 +611,17 @@
     "startDate": "2022-12-01",
     "endDate": "2022-12-12",
     "type": "city",
-    "coordinates": [25.2048, 55.2708],
+    "coordinates": [
+      25.2048,
+      55.2708
+    ],
     "description": "Skyscrapers, desert safaris, and over-the-top luxury.",
-    "highlights": ["Burj Khalifa", "Desert safari", "Sheikh Zayed Mosque", "Dubai Marina"],
+    "highlights": [
+      "Burj Khalifa",
+      "Desert safari",
+      "Sheikh Zayed Mosque",
+      "Dubai Marina"
+    ],
     "photos": []
   },
   {
@@ -247,9 +633,17 @@
     "startDate": "2022-09-01",
     "endDate": "2022-09-18",
     "type": "road-trip",
-    "coordinates": [51.5074, -0.1278],
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
     "description": "London to Edinburgh road trip through the English countryside and Scottish Highlands.",
-    "highlights": ["Tower of London", "Edinburgh Castle", "Isle of Skye", "Lake District"],
+    "highlights": [
+      "Tower of London",
+      "Edinburgh Castle",
+      "Isle of Skye",
+      "Lake District"
+    ],
     "photos": []
   },
   {
@@ -261,9 +655,17 @@
     "startDate": "2022-06-10",
     "endDate": "2022-06-25",
     "type": "adventure",
-    "coordinates": [10.4806, -84.6469],
+    "coordinates": [
+      10.4806,
+      -84.6469
+    ],
     "description": "Pura vida lifestyle. Volcanoes, rainforests, and wildlife.",
-    "highlights": ["Arenal Volcano", "Manuel Antonio", "Zip-lining", "Sloth spotting"],
+    "highlights": [
+      "Arenal Volcano",
+      "Manuel Antonio",
+      "Zip-lining",
+      "Sloth spotting"
+    ],
     "photos": []
   },
   {
@@ -275,9 +677,17 @@
     "startDate": "2022-07-15",
     "endDate": "2022-07-28",
     "type": "adventure",
-    "coordinates": [60.3913, 5.3221],
+    "coordinates": [
+      60.3913,
+      5.3221
+    ],
     "description": "Fjord cruises, hiking Trolltunga, and midnight sun in summer.",
-    "highlights": ["Geirangerfjord", "Trolltunga", "Bergen", "Flam Railway"],
+    "highlights": [
+      "Geirangerfjord",
+      "Trolltunga",
+      "Bergen",
+      "Flam Railway"
+    ],
     "photos": []
   },
   {
@@ -289,9 +699,17 @@
     "startDate": "2022-04-01",
     "endDate": "2022-04-14",
     "type": "city",
-    "coordinates": [37.5665, 126.9780],
+    "coordinates": [
+      37.5665,
+      126.978
+    ],
     "description": "K-culture deep dive. Seoul's neon nights and Busan's beaches.",
-    "highlights": ["Gangnam", "DMZ", "Busan fish market", "Gyeongbokgung Palace"],
+    "highlights": [
+      "Gangnam",
+      "DMZ",
+      "Busan fish market",
+      "Gyeongbokgung Palace"
+    ],
     "photos": []
   },
   {
@@ -303,9 +721,17 @@
     "startDate": "2022-01-20",
     "endDate": "2022-02-05",
     "type": "adventure",
-    "coordinates": [-13.1631, -72.5450],
+    "coordinates": [
+      -13.1631,
+      -72.545
+    ],
     "description": "From the coast to the Andes. Machu Picchu was the crown jewel.",
-    "highlights": ["Machu Picchu", "Sacred Valley", "Lima ceviche", "Rainbow Mountain"],
+    "highlights": [
+      "Machu Picchu",
+      "Sacred Valley",
+      "Lima ceviche",
+      "Rainbow Mountain"
+    ],
     "photos": []
   },
   {
@@ -317,9 +743,17 @@
     "startDate": "2021-11-01",
     "endDate": "2021-11-25",
     "type": "road-trip",
-    "coordinates": [-33.8688, 151.2093],
+    "coordinates": [
+      -33.8688,
+      151.2093
+    ],
     "description": "East coast road trip from Melbourne to Cairns. Beaches, reefs, and wildlife.",
-    "highlights": ["Sydney Opera House", "Great Barrier Reef", "Great Ocean Road", "Blue Mountains"],
+    "highlights": [
+      "Sydney Opera House",
+      "Great Barrier Reef",
+      "Great Ocean Road",
+      "Blue Mountains"
+    ],
     "photos": []
   },
   {
@@ -331,9 +765,17 @@
     "startDate": "2021-03-10",
     "endDate": "2021-03-24",
     "type": "adventure",
-    "coordinates": [29.9792, 31.1342],
+    "coordinates": [
+      29.9792,
+      31.1342
+    ],
     "description": "Ancient wonders along the Nile. Pyramids, temples, and felucca sailing.",
-    "highlights": ["Pyramids of Giza", "Valley of the Kings", "Abu Simbel", "Nile cruise"],
+    "highlights": [
+      "Pyramids of Giza",
+      "Valley of the Kings",
+      "Abu Simbel",
+      "Nile cruise"
+    ],
     "photos": []
   },
   {
@@ -345,9 +787,17 @@
     "startDate": "2021-06-01",
     "endDate": "2021-06-18",
     "type": "city",
-    "coordinates": [41.3874, 2.1686],
+    "coordinates": [
+      41.3874,
+      2.1686
+    ],
     "description": "Tapas, flamenco, Gaudi, and siestas. The Spanish way of life.",
-    "highlights": ["Sagrada Familia", "Alhambra", "Plaza Mayor", "Park Guell"],
+    "highlights": [
+      "Sagrada Familia",
+      "Alhambra",
+      "Plaza Mayor",
+      "Park Guell"
+    ],
     "photos": []
   },
   {
@@ -359,9 +809,17 @@
     "startDate": "2021-08-10",
     "endDate": "2021-08-20",
     "type": "adventure",
-    "coordinates": [46.5197, 7.5597],
+    "coordinates": [
+      46.5197,
+      7.5597
+    ],
     "description": "Alpine paradise. Train rides through the Alps, pristine lakes.",
-    "highlights": ["Matterhorn", "Jungfraujoch", "Lake Lucerne", "Swiss trains"],
+    "highlights": [
+      "Matterhorn",
+      "Jungfraujoch",
+      "Lake Lucerne",
+      "Swiss trains"
+    ],
     "photos": []
   },
   {
@@ -373,9 +831,17 @@
     "startDate": "2020-10-01",
     "endDate": "2020-10-18",
     "type": "adventure",
-    "coordinates": [38.6431, 34.8289],
+    "coordinates": [
+      38.6431,
+      34.8289
+    ],
     "description": "Hot air balloons over Cappadocia, bazaars of Istanbul, Turkish riviera.",
-    "highlights": ["Cappadocia balloons", "Hagia Sophia", "Grand Bazaar", "Pamukkale"],
+    "highlights": [
+      "Cappadocia balloons",
+      "Hagia Sophia",
+      "Grand Bazaar",
+      "Pamukkale"
+    ],
     "photos": []
   }
 ]
