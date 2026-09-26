@@ -45,6 +45,36 @@ async function loadTrips() {
 }
 
 // ============================================
+// BASEMAP
+// ============================================
+// CARTO Dark Matter (vector). CARTO put an API key in front of their *raster*
+// tiles (dark_all etc) - the GL vector style is still key-free and is the
+// original look this site shipped with. Leaflet can't read a GL style on its
+// own, so it goes through the maplibre-gl-leaflet bridge. If maplibre or the
+// style is unavailable we fall back to Esri Dark Gray raster rather than
+// rendering an empty grey box.
+var CARTO_STYLE_URL = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
+
+function addBasemap(targetMap) {
+    if (typeof L.maplibreGL === 'function' && typeof maplibregl !== 'undefined') {
+        try {
+            L.maplibreGL({ style: CARTO_STYLE_URL, attribution: '&copy; OpenStreetMap contributors &copy; CARTO' }).addTo(targetMap);
+            return;
+        } catch (e) {
+            console.warn('basemap: maplibre-gl-leaflet failed, using Esri fallback', e);
+        }
+    }
+    var E = 'https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/';
+    L.tileLayer(E + 'World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 16,
+        attribution: '&copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'
+    }).addTo(targetMap);
+    L.tileLayer(E + 'World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 16
+    }).addTo(targetMap);
+}
+
+// ============================================
 // MAP
 // ============================================
 
@@ -58,14 +88,7 @@ function initMap() {
         attributionControl: false
     });
 
-    // Dark tile layer
-    L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-        maxZoom: 16,
-        attribution: '&copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'
-    }).addTo(map);
-    L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
-        maxZoom: 16
-    }).addTo(map);
+    addBasemap(map);
 
     // Add markers for each trip
     addMarkers();
@@ -261,8 +284,7 @@ function openTripDetail(trip) {
                 zoom: 4,
                 zoomControl: false
             });
-            L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16 }).addTo(detailMap);
-            L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16 }).addTo(detailMap);
+            addBasemap(detailMap);
 
             const latlngs = trip.route.map(r => r.coordinates);
             L.polyline(latlngs, { color: typeColors.cruise, weight: 3, opacity: 0.8 }).addTo(detailMap);
