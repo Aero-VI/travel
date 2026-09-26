@@ -59,8 +59,12 @@ function initMap() {
     });
 
     // Dark tile layer
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 19
+    L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 16,
+        attribution: '&copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'
+    }).addTo(map);
+    L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 16
     }).addTo(map);
 
     // Add markers for each trip
@@ -257,7 +261,8 @@ function openTripDetail(trip) {
                 zoom: 4,
                 zoomControl: false
             });
-            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(detailMap);
+            L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16 }).addTo(detailMap);
+            L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16 }).addTo(detailMap);
 
             const latlngs = trip.route.map(r => r.coordinates);
             L.polyline(latlngs, { color: typeColors.cruise, weight: 3, opacity: 0.8 }).addTo(detailMap);
